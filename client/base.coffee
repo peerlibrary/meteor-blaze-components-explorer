@@ -1,17 +1,13 @@
-Meteor.startup ->
-  Meteor.subscribe 'packages'
-
 class ComponentsList extends BlazeComponent
   @register 'ComponentsList'
 
-  template: ->
-    'ComponentsList'
+  onCreated: ->
+    super
+
+    @subscribe 'packages'
 
   components: ->
-    LatestPackages.find()
+    MeteorPackages.LatestPackages.find()
 
 class Component extends BlazeComponent
   @register 'Component'
-
-  template: ->
-    'Component'

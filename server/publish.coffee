@@ -1,3 +1,3 @@
 Meteor.publish 'packages', ->
-  LatestPackages.find
+  MeteorPackages.LatestPackages.find
     'dependencies.packageName': 'peerlibrary:blaze-components'
