@@ -7,10 +7,8 @@
 coffeescript
 peerlibrary:blaze-components
 markdown
-standard-minifiers
 meteor-base
 mobile-experience
-blaze-html-templates
 session
 jquery
 tracker
@@ -21,3 +19,6 @@ ejson
 spacebars
 underscore
 peerlibrary:meteor-packages
+standard-minifier-css
+standard-minifier-js
+templating-dependency
