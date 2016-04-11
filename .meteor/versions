@@ -53,7 +53,7 @@ peerlibrary:base-component@0.16.0
 peerlibrary:blaze-components@0.18.0
 peerlibrary:computed-field@0.3.1
 peerlibrary:data-lookup@0.1.0
-peerlibrary:meteor-packages@0.2.1
+peerlibrary:meteor-packages@0.2.2
 peerlibrary:reactive-field@0.1.0
 promise@0.6.5
 random@1.0.7
