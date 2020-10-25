@@ -4,21 +4,24 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-coffeescript
-peerlibrary:blaze-components
 markdown
-meteor-base
-mobile-experience
-session
-jquery
-tracker
-logging
-reload
-random
-ejson
+meteor-base@1.4.0
+mobile-experience@1.1.0
+session@1.2.0
+tracker@1.2.0
+logging@1.1.20
+reload@1.3.0
+random@1.2.0
+ejson@1.1.1
 spacebars
-underscore
-peerlibrary:meteor-packages
-standard-minifier-css
-standard-minifier-js
+underscore@1.0.10
+standard-minifier-css@1.6.1
+standard-minifier-js@2.6.0
 templating-dependency
+shell-server
+dynamic-import
+coffeescript
+jquery
+peerlibrary:blaze-components
+ecmascript
+peerlibrary:meteor-packages

@@ -1,13 +1,15 @@
+import { PackageServer } from "meteor/peerlibrary:meteor-packages"
+
 class ComponentsList extends BlazeComponent
   @register 'ComponentsList'
 
   onCreated: ->
-    super
+    super()
 
     @subscribe 'packages'
 
   components: ->
-    MeteorPackages.LatestPackages.find()
+    PackageServer.LatestPackages.find()
 
 class Component extends BlazeComponent
   @register 'Component'
